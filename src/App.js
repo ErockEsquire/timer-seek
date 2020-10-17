@@ -38,8 +38,9 @@ const Playback = () => {
   `
   
   const [runtime, setRuntime] = useState(0)
-  const [maxtime, setMaxtime] = useState(15000)
   const [play, setPlay] = useState(false)
+
+  const maxtime = 15000;
 
   useEffect(() => {
     let interval = null;
